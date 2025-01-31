@@ -1,0 +1,48 @@
+{
+  "name": "three-pixi-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --config ./bundler/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-bunger/three-pixi-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sam-bunger/three-pixi-bug/issues"
+  },
+  "homepage": "https://github.com/sam-bunger/three-pixi-bug#readme",
+  "dependencies": {
+    "pixi.js": "^8.7.3",
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.22.10",
+    "@babel/plugin-proposal-class-properties": "~7.18.6",
+    "@babel/plugin-proposal-decorators": "~7.24.7",
+    "@babel/plugin-proposal-explicit-resource-management": "~7.22.6",
+    "@babel/preset-env": "~7.22.10",
+    "@babel/preset-react": "~7.22.5",
+    "@babel/preset-typescript": "~7.22.5",
+    "@principalstudio/html-webpack-inject-preload": "~1.2.7",
+    "@types/three": "^0.166.0",
+    "@types/webpack-env": "~1.18.0",
+    "babel-loader": "~9.1.3",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^8.1.1",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "terser-webpack-plugin": "^5.3.11",
+    "typescript": "~5.4.0",
+    "webpack": "~5.92.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-manifest-plugin": "~5.0.0",
+    "webpack-merge": "^5.7.3",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
